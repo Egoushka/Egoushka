@@ -16,17 +16,24 @@ Here are some ideas to get you started:
 -->
 
 <p align="center">
-  <a href="https://github.com/blackkiv?tab=repositories">
+  <a href="https://github.com/Egoushka?tab=repositories">
     <img
       align="center"
       src="https://github-readme-stats.vercel.app/api/top-langs/?username=Egoushka&layout=compact&theme=tokyonight&hide_border=true"
     />
   </a>
-  <a href="https://github.com/blackkiv?tab=repositories">
+  <a href="https://github.com/Egoushka?tab=repositories">
     <img
       align="center"
       height="165"
       src="https://github-readme-stats.vercel.app/api?username=Egoushka&count_private=true&show_icons=true&custom_title=Github%20Status&hide=issues&theme=tokyonight&hide_border=true"
+    />
+  </a>
+  <a href="https://github.com/Egoushka?tab=repositories">
+    <img
+      align="center"
+      height="165"
+      src="https://github-readme-stats.vercel.app/api/wakatime?username=Egoushka"
     />
   </a>
 </p>
