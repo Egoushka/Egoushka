@@ -1,19 +1,30 @@
-### Hi there 👋
+### Hey, I’m Yehor 👋
 
-<!--
-**Egoushka/Egoushka** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I’m a Full-Stack Developer focused on building clean, resilient systems with .NET and Angular.  
+I believe in thinking architecturally, learning through failure, and delivering code that makes sense — not just code that works.
 
-Here are some ideas to get you started:
+#### 🚀 What I work with
+- **Backend:** ASP.NET Core, EF Core, MediatR, CQRS, REST APIs, PostgreSQL
+- **Frontend:** Angular, NgRx, RxJS, SCSS, Modular UI Components
+- **Testing & Tools:** xUnit, Moq, FluentAssertions, GitHub Copilot, Redis, Docker
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+#### 🤘 What drives me nuts
+- Building **reusable Angular libraries** that stay clean under pressure  
+- Architecting **backend services** with **Vertical Slice** and **Clean Architecture**
+
+#### 🌱 Currently growing in
+- Kubernetes, Event-driven architecture, Domain-Driven Design
+- Improving soft skills, system thinking, and leadership
+
+#### 🎯 Motivated by
+- Clarity over cleverness
+- Clean, maintainable codebases
+- Solving real problems with simple, scalable designs
+
+#### 📬 Let’s connect
+- [LinkedIn](https://linkedin.com/in/egoushka)
+
+---
 
 <p align="center">
   <a href="https://github.com/Egoushka?tab=repositories">
@@ -30,4 +41,3 @@ Here are some ideas to get you started:
     />
   </a>
 </p>
-
