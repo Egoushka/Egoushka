@@ -21,9 +21,6 @@ I believe in thinking architecturally, learning through failure, and delivering 
 - Clean, maintainable codebases
 - Solving real problems with simple, scalable designs
 
-#### 📬 Let’s connect
-- [LinkedIn](https://linkedin.com/in/egoushka)
-
 ---
 
 <p align="center">
