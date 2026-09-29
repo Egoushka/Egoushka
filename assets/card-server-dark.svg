@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="206" viewBox="0 0 600 206" role="img" aria-label="Nytka: A self-hosted home for an Omi necklace&#x27;s conversations, memories and action items.">
+<style>
+text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif; }
+.mono { font-family: ui-monospace, 'SF Mono', Menlo, 'Cascadia Mono', 'DejaVu Sans Mono', monospace; }
+.rise { animation: rise .7s cubic-bezier(.2,.7,.2,1) both; }
+@keyframes rise { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
+
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+</style>
+<defs><clipPath id="frame"><rect width="600" height="190" rx="16"/></clipPath><linearGradient id="edge" x1="0" x2="1"><stop offset="0" stop-color="#f2a03d"/><stop offset=".55" stop-color="#a78bfa"/><stop offset="1" stop-color="#60a5fa"/></linearGradient></defs>
+<g clip-path="url(#frame)"><rect width="600" height="190" fill="#111215"/><rect y="187" width="600" height="3" fill="url(#edge)"/></g>
+<g transform="translate(30 30) scale(1.45)"><path d="M2 2.5A2.5 2.5 0 0 1 4.5 0h8.75a.75.75 0 0 1 .75.75v12.5a.75.75 0 0 1-.75.75h-2.5a.75.75 0 0 1 0-1.5h1.75v-2h-8a1 1 0 0 0-.714 1.7.75.75 0 1 1-1.072 1.05A2.495 2.495 0 0 1 2 11.5Zm10.5-1h-8a1 1 0 0 0-1 1v6.708A2.486 2.486 0 0 1 4.5 9h8ZM5 12.25a.25.25 0 0 1 .25-.25h3.5a.25.25 0 0 1 .25.25v3.25a.25.25 0 0 1-.4.2l-1.45-1.087a.249.249 0 0 0-.3 0L5.4 15.7a.25.25 0 0 1-.4-.2Z" fill="#98a0a8"/></g><text x="66" y="52" font-size="27" font-weight="700" fill="#f2f4f6">Nytka</text><rect x="465.2" y="30" width="104.8" height="28" rx="14" fill="#60a5fa" fill-opacity=".14" stroke="#60a5fa" stroke-opacity=".55"/><text class="mono" x="517.6" y="49" font-size="14" letter-spacing="1.5" fill="#60a5fa" text-anchor="middle">BUILDING</text><text x="30" y="98" font-size="19" fill="#98a0a8">A self-hosted home for an Omi necklace&#x27;s</text><text x="30" y="126" font-size="19" fill="#98a0a8">conversations, memories and action items.</text><circle cx="37" cy="159" r="7" fill="#3fb950"/><text class="mono" x="52" y="165" font-size="16" fill="#f2f4f6" textLength="19.2" lengthAdjust="spacing">C#</text><text class="mono" x="81.2" y="165" font-size="15" fill="#5b616a">· ASP.NET Core · Android</text>
+<rect x=".5" y=".5" width="599" height="189" rx="15.5" fill="none" stroke="#23262b"/>
+</svg>
