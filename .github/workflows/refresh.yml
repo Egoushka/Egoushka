@@ -1,0 +1,58 @@
+name: refresh
+
+# Redraws the profile's widgets from hrabovskyi.online/status.json, the site's feed
+# and the GitHub API, and the contribution snake. A widget whose inputs did not
+# arrive keeps its last drawing; the run then fails so the problem is noticed.
+
+on:
+  schedule:
+    - cron: "17 5 * * *"
+  workflow_dispatch:
+  # A change to the drawing code redraws at once. The bot's own push cannot
+  # retrigger this: pushes made with the workflow token start no workflows.
+  push:
+    branches: [main]
+    paths: ["scripts/**", "assets/icons/**", ".github/workflows/refresh.yml"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - uses: Platane/snk@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3.5.0
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            assets/snake-dark.svg?color_snake=#f2a03d&color_dots=#16181b,#3d2c12,#6b4a16,#a8701f,#f2a03d
+            assets/snake-light.svg?color_snake=#a85d08&color_dots=#eef0f2,#f6dcb4,#eab46a,#d18a2c,#a85d08
+
+      - id: render
+        run: python3 scripts/render.py
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+
+      - name: commit
+        run: |
+          [ -z "$(git status --porcelain)" ] && exit 0
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A assets README.md
+          git commit -m "profile: redraw from hrabovskyi.online"
+          git push
+
+      - name: fail on problems
+        if: steps.render.outputs.problems != ''
+        env:
+          PROBLEMS: ${{ steps.render.outputs.problems }}
+        run: |
+          echo "::error::$PROBLEMS"
+          exit 1

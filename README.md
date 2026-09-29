@@ -1,46 +1,50 @@
-# Yehor Hrabovskyi
+<a href="https://hrabovskyi.online">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
+    <img alt="Yehor Hrabovskyi, backend-first .NET developer in Kyiv" src="assets/header-light.svg" width="100%">
+  </picture>
+</a>
 
-**I write .NET backends and fix the ones that fail quietly.**
+<p align="center">
+  <a href="https://hrabovskyi.online"><img alt="hrabovskyi.online" src="https://img.shields.io/badge/hrabovskyi.online-f2a03d?style=for-the-badge&logo=googlechrome&logoColor=0a0b0d&labelColor=f2a03d"></a>
+  <a href="https://www.linkedin.com/in/yehor-hrabovskyi"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-111215?style=for-the-badge&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iI2YyZjRmNiIgZD0iTTIwLjQ1IDIwLjQ1aC0zLjU1di01LjU3YzAtMS4zMy0uMDMtMy4wNC0xLjg1LTMuMDQtMS44NSAwLTIuMTMgMS40NS0yLjEzIDIuOTR2NS42N0g5LjM1VjloMy40MXYxLjU2aC4wNWMuNDgtLjkgMS42NC0xLjg1IDMuMzctMS44NSAzLjYgMCA0LjI3IDIuMzcgNC4yNyA1LjQ2djYuMjh6TTUuMzQgNy40M2EyLjA2IDIuMDYgMCAxIDEgMC00LjEyIDIuMDYgMi4wNiAwIDAgMSAwIDQuMTJ6TTcuMTIgMjAuNDVIMy41NlY5aDMuNTZ2MTEuNDV6TTIyLjIyIDBIMS43N0MuNzkgMCAwIC43NyAwIDEuNzN2MjAuNTRDMCAyMy4yMy43OSAyNCAxLjc3IDI0aDIwLjQ1YzEgMCAxLjc4LS43NyAxLjc4LTEuNzNWMS43M0MyNCAuNzcgMjMuMjEgMCAyMi4yMiAweiIvPjwvc3ZnPg=="></a>
+  <a href="https://www.nuget.org/packages/Attest"><img alt="Attest on NuGet" src="https://img.shields.io/nuget/dt/Attest?style=for-the-badge&logo=nuget&logoColor=f2f4f6&label=Attest%20installs&labelColor=111215&color=004880"></a>
+  <a href="https://hrabovskyi.online/feed.xml"><img alt="RSS" src="https://img.shields.io/badge/RSS-111215?style=for-the-badge&logo=rss&logoColor=f2a03d"></a>
+</p>
 
-Kyiv. By day, trade and payment flows, reconciliation and third-party integrations on a European crypto brokerage. After hours, one Hetzner box that runs everything I build, and notes on what broke. Open to contract work.
+By day I build trade and payment flows, reconciliation and third-party integrations for a European crypto brokerage. After hours I run everything I make on one Hetzner box, deployed from Git, and write about the parts that went wrong.
 
-[hrabovskyi.online](https://hrabovskyi.online) · [LinkedIn](https://www.linkedin.com/in/yehor-hrabovskyi) · [RSS](https://hrabovskyi.online/feed.xml)
+<!-- box:start -->
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/box-dark.svg"><img alt="Live from the box, read 29 Sep, 13:50 UTC: 123 containers running, 0 unhealthy; 32 hours coded in 30 days; 497 NuGet installs; 8 posts." src="assets/box-light.svg" width="100%"></picture>
+<!-- box:end -->
 
-## I assumed. Then I counted.
+<p align="center">
+  <a href="https://github.com/Egoushka/attest"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-attest-dark.svg"><img alt="Attest" src="assets/card-attest-light.svg" width="49%"></picture></a>
+  <a href="https://github.com/Egoushka/chargehand"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-chargehand-dark.svg"><img alt="chargehand" src="assets/card-chargehand-light.svg" width="49%"></picture></a>
+  <a href="https://github.com/Egoushka/chronicle"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-chronicle-dark.svg"><img alt="Chronicle" src="assets/card-chronicle-light.svg" width="49%"></picture></a>
+  <a href="https://github.com/nytka-app/server"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-server-dark.svg"><img alt="Nytka" src="assets/card-server-light.svg" width="49%"></picture></a>
+  <a href="https://github.com/Egoushka/switchboard"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-switchboard-dark.svg"><img alt="switchboard" src="assets/card-switchboard-light.svg" width="49%"></picture></a>
+  <a href="https://github.com/Egoushka/devbox-mcp"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-devbox-mcp-dark.svg"><img alt="devbox-mcp" src="assets/card-devbox-mcp-light.svg" width="49%"></picture></a>
+</p>
 
-| Assumed | Counted | |
-|---|---|---|
-| The pipeline is green, so the site is current | Nothing had shipped for **51 days** | [read](https://hrabovskyi.online/writing/silent-deploys) |
-| Services on tailnet addresses are private | Every one answered **200** to the open internet | [read](https://hrabovskyi.online/writing/dns-is-not-access-control) |
-| A popular NuGet package validates tax IDs | It rejected all **36 million** valid Hungarian ones, one of **197** defects | [read](https://hrabovskyi.online/writing/attest) |
-| An assistant's memory improves as it grows | **5,357** stored facts, **0** ever marked wrong | [read](https://hrabovskyi.online/writing/synapse) |
-| My orchestrator beats a plain agent session | It lost the blind test **0.333 to 0.667** | [read](https://hrabovskyi.online/writing/chargehand-blind-test) |
-| Seven years of my chats are worth indexing | **Two thirds** of them say "ок" | [read](https://hrabovskyi.online/writing/chronicle) |
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg">
+  <img alt="Stack: C#, .NET, Angular, TypeScript at work; Python, Kotlin, Postgres, Next.js on my own projects; Docker, Linux, Cloudflare, Redis, Grafana, Prometheus, GitHub Actions and Bash on the box" src="assets/stack-light.svg" width="100%">
+</picture>
 
-## Right now
+### Latest writing
 
-<!-- status:start -->
-```text
-one Hetzner box, Nuremberg                     read 2026-09-29 13:20 UTC
-containers    123 running, 0 unhealthy
-coding        32 h in the last 30 days: C# 31%, Markdown 28%, Html 11%
-attest        v1.2.1, 495 NuGet installs
-```
-<!-- status:end -->
-<!-- latest:start -->
-Latest post: [My agent orchestrator lost its first blind test, 0.333 to 0.667](https://hrabovskyi.online/writing/chargehand-blind-test/) (29 September 2026)
-<!-- latest:end -->
+<!-- posts:start -->
+- `29 Sep` &nbsp;[My agent orchestrator lost its first blind test, 0.333 to 0.667](https://hrabovskyi.online/writing/chargehand-blind-test/)
+- `29 Sep` &nbsp;[My private services were on the public internet. DNS was the only thing hiding them.](https://hrabovskyi.online/writing/dns-is-not-access-control/)
+- `22 Sep` &nbsp;[The library rejected all 36 million valid Hungarian tax numbers](https://hrabovskyi.online/writing/attest/)
+- `22 Sep` &nbsp;[Two thirds of my chat archive is the word "ок"](https://hrabovskyi.online/writing/chronicle/)
+- `22 Sep` &nbsp;[My ring knows how I slept. It will not tell me why.](https://hrabovskyi.online/writing/oura-platform/)
+<!-- posts:end -->
 
-<sub>Not typed. A cron job on the box writes [status.json](https://hrabovskyi.online/status.json), and a [daily Action](https://github.com/Egoushka/Egoushka/blob/main/.github/workflows/refresh.yml) copies it here. If the box stops reporting, this block says so.</sub>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/snake-dark.svg">
+  <img alt="My GitHub contributions, eaten by a snake" src="assets/snake-light.svg" width="100%">
+</picture>
 
-## Built, and still running
-
-- **[Attest](https://github.com/Egoushka/attest)** · C# · [NuGet](https://www.nuget.org/packages/Attest). National ID, tax ID, VAT and postal codes for 87 countries, each checked against the rule the country publishes.
-- **[chargehand](https://github.com/Egoushka/chargehand)** · C#. Runs a question about a codebase on coding agents and checks every citation in the answer against a pinned commit.
-- **[Chronicle](https://github.com/Egoushka/chronicle)** · Python, pgvector. Seven years of chat history, searchable by an assistant over MCP.
-- **[Nytka](https://github.com/nytka-app/server)** · ASP.NET Core, Android. A self-hosted home for an Omi necklace's conversations and memories. Building it now.
-- **[switchboard](https://github.com/Egoushka/switchboard)** · Python. One MCP front door to every tool on the box.
-- **[devbox-mcp](https://github.com/Egoushka/devbox-mcp)**. A project's real test suite and SonarQube scan, in throwaway containers.
-- **[agent-skills](https://github.com/Egoushka/agent-skills)**. Commit-pinned skills for Claude Code, OpenCode and Codex.
-
-<sub>C# · ASP.NET Core · EF Core · SQL Server · PostgreSQL · Angular · Python · Docker Compose · Tailscale · SOPS + age</sub>
+<sub>The cards redraw daily from <a href="https://hrabovskyi.online/status.json">status.json</a>, written by cron on the box. <a href="https://github.com/Egoushka/Egoushka/blob/main/scripts/render.py">How</a>.</sub>
