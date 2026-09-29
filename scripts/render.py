@@ -180,15 +180,13 @@ def header(t, box):
     phrases = ["backend-first .NET developer", "I fix backends that fail quietly",
                f"{box['containers']} containers on one Hetzner box" if live else "a homelab on one Hetzner box",
                "and I write down what broke"]
-    chips, cx, chip_svg = [("Kyiv, Ukraine", None), ("C# · .NET · ASP.NET Core", None), ("open to contract work", "ok")], 64, []
-    for i, (text, dot) in enumerate(chips):
-        cw = len(text) * 8.4 + 28 + (16 if dot else 0)
-        stroke = t["ok"] if dot else t["border"]
+    cx, chip_svg = 64, []
+    for i, text in enumerate(["Kyiv, Ukraine", "C# · .NET · ASP.NET Core"]):
+        cw = len(text) * 8.4 + 28
         chip_svg.append(f'<g class="rise" style="animation-delay:{0.5 + i * 0.12:.2f}s">'
-                        f'<rect x="{cx}" y="252" width="{cw:.0f}" height="36" rx="18" fill="{t["tile"]}" stroke="{stroke}"/>'
-                        + (f'<circle cx="{cx + 20}" cy="270" r="4" fill="{t["ok"]}"/>' if dot else "")
-                        + f'<text class="mono" x="{cx + 14 + (16 if dot else 0)}" y="275" font-size="14" fill="{t["fg"]}" '
-                          f'textLength="{len(text) * 8.4:.1f}" lengthAdjust="spacing">{esc(text)}</text></g>')
+                        f'<rect x="{cx}" y="252" width="{cw:.0f}" height="36" rx="18" fill="{t["tile"]}" stroke="{t["border"]}"/>'
+                        f'<text class="mono" x="{cx + 14}" y="275" font-size="14" fill="{t["fg"]}" '
+                        f'textLength="{len(text) * 8.4:.1f}" lengthAdjust="spacing">{esc(text)}</text></g>')
         cx += cw + 12
     caption = f"{box['containers']} containers · {box['unhealthy']} unhealthy" if live else f"silent since {box['since']}"
     edge_def, edge_rect = edge(t, w, h)
