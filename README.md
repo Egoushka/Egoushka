@@ -15,7 +15,7 @@
 By day I build trade and payment flows, reconciliation and third-party integrations for a European crypto brokerage. After hours I run everything I make on one Hetzner box, deployed from Git, and write about the parts that went wrong.
 
 <!-- box:start -->
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/box-dark.svg"><img alt="Live from the box, read 29 Sep, 13:50 UTC: 123 containers running, 0 unhealthy; 32 hours coded in 30 days; 497 NuGet installs; 8 posts." src="assets/box-light.svg" width="100%"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/box-dark.svg"><img alt="Live from the box, read 29 Sep, 13:50 UTC: 123 containers running, 0 unhealthy; 32 hours coded in 30 days; 497 NuGet installs; 10 posts." src="assets/box-light.svg" width="100%"></picture>
 <!-- box:end -->
 
 <p align="center">
@@ -36,10 +36,10 @@ By day I build trade and payment flows, reconciliation and third-party integrati
 
 <!-- posts:start -->
 - `29 Sep` &nbsp;[My agent orchestrator lost its first blind test, 0.333 to 0.667](https://hrabovskyi.online/writing/chargehand-blind-test/)
+- `29 Sep` &nbsp;[My search scored 48.2% on its first eval. Then I found the scoreboard was wrong twice.](https://hrabovskyi.online/writing/chronicle-vs-grep/)
 - `29 Sep` &nbsp;[My private services were on the public internet. DNS was the only thing hiding them.](https://hrabovskyi.online/writing/dns-is-not-access-control/)
+- `29 Sep` &nbsp;[Making this repo public would have published my server's address in 203 commits](https://hrabovskyi.online/writing/making-a-repo-public/)
 - `22 Sep` &nbsp;[The library rejected all 36 million valid Hungarian tax numbers](https://hrabovskyi.online/writing/attest/)
-- `22 Sep` &nbsp;[Two thirds of my chat archive is the word "ок"](https://hrabovskyi.online/writing/chronicle/)
-- `22 Sep` &nbsp;[My ring knows how I slept. It will not tell me why.](https://hrabovskyi.online/writing/oura-platform/)
 <!-- posts:end -->
 
 <picture>
