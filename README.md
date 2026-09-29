@@ -1,30 +1,46 @@
 # Yehor Hrabovskyi
 
-Backend-first .NET developer in Kyiv. I write backends, and I fix the ones that fail quietly.
+**I write .NET backends and fix the ones that fail quietly.**
 
-By day I work on trade and payment flows, reconciliation and third-party integrations for a European crypto brokerage. Off hours I run everything on one Hetzner box, deploy it from Git, and write down what breaks. Open to contract work.
+Kyiv. By day, trade and payment flows, reconciliation and third-party integrations on a European crypto brokerage. After hours, one Hetzner box that runs everything I build, and notes on what broke. Open to contract work.
 
-[hrabovskyi.online](https://hrabovskyi.online) · [Writing](https://hrabovskyi.online/writing) · [LinkedIn](https://www.linkedin.com/in/yehor-hrabovskyi)
+[hrabovskyi.online](https://hrabovskyi.online) · [LinkedIn](https://www.linkedin.com/in/yehor-hrabovskyi) · [RSS](https://hrabovskyi.online/feed.xml)
 
-## Built
+## I assumed. Then I counted.
 
-| | |
-|---|---|
-| [**Attest**](https://github.com/Egoushka/attest) | Validates national ID, tax ID, VAT and postal codes for 87 countries, each against the rule the country publishes. A fork of CountryValidator with 197 defects fixed. On [NuGet](https://www.nuget.org/packages/Attest). |
-| [**chargehand**](https://github.com/Egoushka/chargehand) | Runs a question about a codebase on coding agents and returns an answer whose every citation is checked against a pinned commit. CLI, HTTP and MCP. |
-| [**Chronicle**](https://github.com/Egoushka/chronicle) | Seven years of my chat history, searchable by an assistant over MCP. It refuses to index the 65% that says "ok". |
-| [**switchboard**](https://github.com/Egoushka/switchboard) | One MCP front door to every homelab tool: search, describe, read, approved write. |
-| [**devbox-mcp**](https://github.com/Egoushka/devbox-mcp) | Runs a project's real test suite and SonarQube scans in throwaway, socket-proxied containers. |
-| [**agent-skills**](https://github.com/Egoushka/agent-skills) | Commit-pinned skills for Claude Code, OpenCode and Codex, with a self-hosted reference search. |
+| Assumed | Counted | |
+|---|---|---|
+| The pipeline is green, so the site is current | Nothing had shipped for **51 days** | [read](https://hrabovskyi.online/writing/silent-deploys) |
+| Services on tailnet addresses are private | Every one answered **200** to the open internet | [read](https://hrabovskyi.online/writing/dns-is-not-access-control) |
+| A popular NuGet package validates tax IDs | It rejected all **36 million** valid Hungarian ones, one of **197** defects | [read](https://hrabovskyi.online/writing/attest) |
+| An assistant's memory improves as it grows | **5,357** stored facts, **0** ever marked wrong | [read](https://hrabovskyi.online/writing/synapse) |
+| My orchestrator beats a plain agent session | It lost the blind test **0.333 to 0.667** | [read](https://hrabovskyi.online/writing/chargehand-blind-test) |
+| Seven years of my chats are worth indexing | **Two thirds** of them say "ок" | [read](https://hrabovskyi.online/writing/chronicle) |
 
-## Writing
+## Right now
 
-- [The library rejected all 36 million valid Hungarian tax numbers](https://hrabovskyi.online/writing/attest)
-- [The deploy said success. Nothing had deployed for 51 days.](https://hrabovskyi.online/writing/silent-deploys)
-- [My private services were on the public internet. DNS was the only thing hiding them.](https://hrabovskyi.online/writing/dns-is-not-access-control)
+<!-- status:start -->
+```text
+one Hetzner box, Nuremberg                     read 2026-09-29 13:20 UTC
+containers    123 running, 0 unhealthy
+coding        32 h in the last 30 days: C# 31%, Markdown 28%, Html 11%
+attest        v1.2.1, 495 NuGet installs
+```
+<!-- status:end -->
+<!-- latest:start -->
+Latest post: [My agent orchestrator lost its first blind test, 0.333 to 0.667](https://hrabovskyi.online/writing/chargehand-blind-test/) (29 September 2026)
+<!-- latest:end -->
 
-## Stack
+<sub>Not typed. A cron job on the box writes [status.json](https://hrabovskyi.online/status.json), and a [daily Action](https://github.com/Egoushka/Egoushka/blob/main/.github/workflows/refresh.yml) copies it here. If the box stops reporting, this block says so.</sub>
 
-- **Day job:** C#, ASP.NET Core, EF Core, MediatR, SQL Server, Angular, NgRx, xUnit
-- **Own projects:** C#, Python, PostgreSQL, MCP, Testcontainers, Moq, FluentAssertions
-- **The box:** Docker Compose, Caddy, Cloudflare, Tailscale, GitOps with SOPS + age
+## Built, and still running
+
+- **[Attest](https://github.com/Egoushka/attest)** · C# · [NuGet](https://www.nuget.org/packages/Attest). National ID, tax ID, VAT and postal codes for 87 countries, each checked against the rule the country publishes.
+- **[chargehand](https://github.com/Egoushka/chargehand)** · C#. Runs a question about a codebase on coding agents and checks every citation in the answer against a pinned commit.
+- **[Chronicle](https://github.com/Egoushka/chronicle)** · Python, pgvector. Seven years of chat history, searchable by an assistant over MCP.
+- **[Nytka](https://github.com/nytka-app/server)** · ASP.NET Core, Android. A self-hosted home for an Omi necklace's conversations and memories. Building it now.
+- **[switchboard](https://github.com/Egoushka/switchboard)** · Python. One MCP front door to every tool on the box.
+- **[devbox-mcp](https://github.com/Egoushka/devbox-mcp)**. A project's real test suite and SonarQube scan, in throwaway containers.
+- **[agent-skills](https://github.com/Egoushka/agent-skills)**. Commit-pinned skills for Claude Code, OpenCode and Codex.
+
+<sub>C# · ASP.NET Core · EF Core · SQL Server · PostgreSQL · Angular · Python · Docker Compose · Tailscale · SOPS + age</sub>
