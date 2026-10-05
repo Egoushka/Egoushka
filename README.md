@@ -15,7 +15,7 @@
 By day I build trade and payment flows, reconciliation and third-party integrations for a European crypto brokerage. After hours I run everything I make on one Hetzner box, deployed from Git, and write about the parts that went wrong.
 
 <!-- box:start -->
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/box-dark.svg"><img alt="Live from the box, read 4 Oct, 23:30 UTC: 120 containers running, 0 unhealthy; 29 hours coded in 30 days; 497 NuGet installs; 10 posts." src="assets/box-light.svg" width="100%"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/box-dark.svg"><img alt="Live from the box, read 5 Oct, 12:10 UTC: 122 containers running, 0 unhealthy; 29 hours coded in 30 days; 497 NuGet installs; 10 posts." src="assets/box-light.svg" width="100%"></picture>
 <!-- box:end -->
 
 <p align="center">
