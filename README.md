@@ -13,7 +13,7 @@
 </p>
 
 <!-- plainsight:intro:start -->
-By day I build trade and payment flows, reconciliation and third-party integrations for a European crypto brokerage. After hours I run everything I make on one Hetzner box, deployed from Git, and write about the parts that went wrong.
+I’m a backend-first .NET developer in Kyiv. I build trade and payment flows, reconciliation and third-party integrations for a European crypto brokerage. I run everything I make on one Hetzner server, deployed from Git. I maintain Attest, a C# library that validates national identification numbers, tax identification numbers, VAT codes and postal codes for 87 countries.
 <!-- plainsight:intro:end -->
 
 <!-- box:start -->
