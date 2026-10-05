@@ -12,7 +12,9 @@
   <a href="https://hrabovskyi.online/feed.xml"><img alt="RSS" src="https://img.shields.io/badge/RSS-111215?style=for-the-badge&logo=rss&logoColor=f2a03d"></a>
 </p>
 
+<!-- plainsight:intro:start -->
 By day I build trade and payment flows, reconciliation and third-party integrations for a European crypto brokerage. After hours I run everything I make on one Hetzner box, deployed from Git, and write about the parts that went wrong.
+<!-- plainsight:intro:end -->
 
 <!-- box:start -->
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/box-dark.svg"><img alt="Live from the box, read 5 Oct, 12:10 UTC: 122 containers running, 0 unhealthy; 29 hours coded in 30 days; 497 NuGet installs; 10 posts." src="assets/box-light.svg" width="100%"></picture>
