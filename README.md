@@ -17,7 +17,7 @@ I'm a backend-first .NET developer in Kyiv. I build trade and payment flows, rec
 <!-- plainsight:intro:end -->
 
 <!-- box:start -->
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/box-dark.svg"><img alt="Live from the box, read 13 Oct, 12:40 UTC: 136 containers running, 0 unhealthy; 94 hours coded in 30 days; 497 NuGet installs; 13 posts." src="assets/box-light.svg" width="100%"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/box-dark.svg"><img alt="Live from the box, read 14 Oct, 10:10 UTC: 130 containers running, 0 unhealthy; 97 hours coded in 30 days; 497 NuGet installs; 11 posts." src="assets/box-light.svg" width="100%"></picture>
 <!-- box:end -->
 
 <p align="center">
@@ -38,10 +38,10 @@ I'm a backend-first .NET developer in Kyiv. I build trade and payment flows, rec
 
 <!-- posts:start -->
 - `10 Oct` &nbsp;[HTTP 402 waited 29 years for a payer. An AI agent fits.](https://hrabovskyi.online/writing/paid-mcp-tools/?utm_source=feed&utm_medium=rss)
-- `06 Oct` &nbsp;[My posts can now draw their own charts](https://hrabovskyi.online/writing/charts-diagrams-and-captioned-images-in-posts-adr-0010/?utm_source=feed&utm_medium=rss)
-- `05 Oct` &nbsp;[chargehand 0.8.0: claims checked against what they cite, results signed](https://hrabovskyi.online/writing/chargehand-0-8-0/?utm_source=feed&utm_medium=rss)
 - `29 Sep` &nbsp;[My agent orchestrator lost its first blind test, 0.333 to 0.667](https://hrabovskyi.online/writing/chargehand-blind-test/?utm_source=feed&utm_medium=rss)
 - `29 Sep` &nbsp;[My search scored 48.2% on its first eval. Then I found the scoreboard was wrong twice.](https://hrabovskyi.online/writing/chronicle-vs-grep/?utm_source=feed&utm_medium=rss)
+- `29 Sep` &nbsp;[My private services were on the public internet. DNS was the only thing hiding them.](https://hrabovskyi.online/writing/dns-is-not-access-control/?utm_source=feed&utm_medium=rss)
+- `29 Sep` &nbsp;[Making this repo public would have published my server's address in 203 commits](https://hrabovskyi.online/writing/making-a-repo-public/?utm_source=feed&utm_medium=rss)
 <!-- posts:end -->
 
 <picture>
