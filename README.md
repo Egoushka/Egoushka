@@ -17,7 +17,7 @@ I'm a backend-first .NET developer in Kyiv. I build trade and payment flows, rec
 <!-- plainsight:intro:end -->
 
 <!-- box:start -->
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/box-dark.svg"><img alt="Live from the box, read 17 Oct, 09:20 UTC: 127 containers running, 0 unhealthy; 92 hours coded in 30 days; 497 NuGet installs; 11 posts." src="assets/box-light.svg" width="100%"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/box-dark.svg"><img alt="Live from the box, read 18 Oct, 09:30 UTC: 127 containers running, 0 unhealthy; 93 hours coded in 30 days; 497 NuGet installs; 12 posts." src="assets/box-light.svg" width="100%"></picture>
 <!-- box:end -->
 
 <p align="center">
@@ -37,11 +37,11 @@ I'm a backend-first .NET developer in Kyiv. I build trade and payment flows, rec
 ### Latest writing
 
 <!-- posts:start -->
+- `17 Oct` &nbsp;[My prompt enhancer's acceptance rate is zero, by design](https://hrabovskyi.online/writing/rewrite-nobody-can-accept/?utm_source=feed&utm_medium=rss)
 - `10 Oct` &nbsp;[HTTP 402 waited 29 years for a payer. An AI agent fits.](https://hrabovskyi.online/writing/paid-mcp-tools/?utm_source=feed&utm_medium=rss)
 - `29 Sep` &nbsp;[My agent orchestrator lost its first blind test, 0.333 to 0.667](https://hrabovskyi.online/writing/chargehand-blind-test/?utm_source=feed&utm_medium=rss)
 - `29 Sep` &nbsp;[My search scored 48.2% on its first eval. Then I found the scoreboard was wrong twice.](https://hrabovskyi.online/writing/chronicle-vs-grep/?utm_source=feed&utm_medium=rss)
 - `29 Sep` &nbsp;[My private services were on the public internet. DNS was the only thing hiding them.](https://hrabovskyi.online/writing/dns-is-not-access-control/?utm_source=feed&utm_medium=rss)
-- `29 Sep` &nbsp;[Making this repo public would have published my server's address in 203 commits](https://hrabovskyi.online/writing/making-a-repo-public/?utm_source=feed&utm_medium=rss)
 <!-- posts:end -->
 
 <picture>
