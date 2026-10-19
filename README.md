@@ -17,7 +17,7 @@ I'm a backend-first .NET developer in Kyiv. I build trade and payment flows, rec
 <!-- plainsight:intro:end -->
 
 <!-- box:start -->
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/box-dark.svg"><img alt="Live from the box, read 18 Oct, 09:30 UTC: 127 containers running, 0 unhealthy; 93 hours coded in 30 days; 497 NuGet installs; 12 posts." src="assets/box-light.svg" width="100%"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/box-dark.svg"><img alt="Live from the box, read 19 Oct, 10:40 UTC: 132 containers running, 0 unhealthy; 99 hours coded in 30 days; 497 NuGet installs; 12 posts." src="assets/box-light.svg" width="100%"></picture>
 <!-- box:end -->
 
 <p align="center">
